@@ -3,6 +3,5 @@ pysqlite3
 dash==1.21.0
 matplotlib
 numpy
-matplotlib.pyplot
 io
 base64
