@@ -26,7 +26,6 @@ urllib3==2.1.0
 Werkzeug==3.0.1
 zipp==3.17.0
 versioneer
-apt-utils
 pysqlite3
 dash==1.21.0
 numpy
