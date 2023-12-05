@@ -29,4 +29,3 @@ versioneer
 pysqlite3
 dash
 numpy
-base64
