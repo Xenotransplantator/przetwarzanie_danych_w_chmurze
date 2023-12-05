@@ -6,12 +6,13 @@ import json
 import matplotlib.pyplot as plt
 import io
 import base64
+import os
 import numpy as np
 
 app = dash.Dash(__name__)
 
 # Ścieżka do pliku bazodanowego
-DB_FILE_PATH = '/home/ddosser/Desktop/baza_danych/pomiary.db'
+DB_FILE_PATH = os.environ.get('DB_FILE_PATH')
 
 # Funkcja do pobierania danych z bazy danych (tylko ostatnia próbka)
 def fetch_data_from_database(num_samples=10):
@@ -121,4 +122,4 @@ def update_graph(n):
     return graph_base64, correlation_base64, fft_original_base64
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8060)
+    app.run_server(debug=True, port=int(os.environ.get('PORT',8060)))
