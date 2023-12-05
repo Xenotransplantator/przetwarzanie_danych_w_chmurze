@@ -30,7 +30,6 @@ versioneer
 apt-utils
 pysqlite3
 dash==1.21.0
-matplotlib==3.4.0
 numpy
 io
 base64
