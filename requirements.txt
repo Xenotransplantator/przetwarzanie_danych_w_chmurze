@@ -27,7 +27,7 @@ Werkzeug==3.0.1
 zipp==3.17.0
 versioneer
 pysqlite3
-dash==1.21.0
+dash
 numpy
 io
 base64
