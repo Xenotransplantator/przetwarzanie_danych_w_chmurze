@@ -1,0 +1,8 @@
+dash
+sqlite3
+json
+matplotlib.pyplot
+matplotlib
+io
+base64
+numpy
