@@ -12,7 +12,7 @@ import numpy as np
 app = dash.Dash(__name__)
 
 # Ścieżka do pliku bazodanowego
-DB_FILE_PATH = os.environ.get('DB_FILE_PATH')
+DB_FILE_PATH = 'pomiary.db'
 
 # Funkcja do pobierania danych z bazy danych (tylko ostatnia próbka)
 def fetch_data_from_database(num_samples=10):
