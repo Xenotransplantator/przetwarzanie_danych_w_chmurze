@@ -11,7 +11,7 @@ import numpy as np
 app = dash.Dash(__name__)
 
 # Ścieżka do pliku bazodanowego
-DB_FILE_PATH = '/home/ddosser/Desktop/baza_danych/pomiary.db'
+DB_FILE_PATH = 'pomiary.db'
 
 # Funkcja do pobierania danych z bazy danych (tylko ostatnia próbka)
 def fetch_data_from_database(num_samples=10):
