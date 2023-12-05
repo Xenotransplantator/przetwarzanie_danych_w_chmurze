@@ -1,5 +1,4 @@
 pysqlite3 
-json
 dash==1.21.0
 matplotlib==3.4.3
 numpy==1.21.2
