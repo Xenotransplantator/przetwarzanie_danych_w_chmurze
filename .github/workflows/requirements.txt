@@ -2,7 +2,7 @@ python==3.11
 versioneer
 pysqlite3
 dash==1.21.0
-matplotlib==3.4.2
+matplotlib==3.4.0
 numpy
 io
 base64
