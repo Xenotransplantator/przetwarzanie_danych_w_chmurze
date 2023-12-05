@@ -6,9 +6,6 @@ click==8.1.7
 colorama==0.4.6
 contourpy==1.2.0
 cycler==0.12.1
-dash-core-components
-dash-html-components
-dash-table==5.0.0
 Flask==3.0.0
 fonttools==4.46.0
 idna==3.6
