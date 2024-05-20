@@ -1,8 +1,6 @@
-dash
-sqlite3
-json
-matplotlib.pyplot
-matplotlib
-io
-base64
-numpy
+rtlsdr
+sqlite3 
+matplotlib 
+scipy 
+pywt 
+Pillow
